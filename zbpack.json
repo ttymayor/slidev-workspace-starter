@@ -1,0 +1,6 @@
+{
+  "build_command": "pnpm install && pnpm run build",
+  "start_command": "sh -c 'pnpm exec serve -s dist -l ${PORT:-3000}'",
+  "install_command": "corepack enable && corepack prepare pnpm@latest --activate"
+}
+
